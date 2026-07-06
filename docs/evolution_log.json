@@ -1,1 +1,26 @@
-{"name":"alex-seed","version":"1.0","evolutions":[],"created":"2026-07-03","source":"pyofart/alex"}
+{
+  "meta": {
+    "schema_version": "1.0",
+    "description": "Alex Fork 进化里程碑日志",
+    "instructions": "每次有方向性改进时，追加一个 entry 到 evolutions 数组",
+    "evolution_types": [
+      "行为优化", "能力增强", "方向修正", "反模式消除", "架构升级"
+    ]
+  },
+  "origin": {
+    "fork_name": "你的 Fork 名称",
+    "platform": "你的平台",
+    "seeded_from": "pyofart/alex-seed",
+    "seeded_at": "YYYY-MM-DD"
+  },
+  "evolutions": [
+    {
+      "date": "YYYY-MM-DD",
+      "capability": "能力名称",
+      "version": "1.0",
+      "type": "行为优化 | 能力增强 | 方向修正 | 反模式消除 | 架构升级",
+      "summary": "简短的进化描述",
+      "files": ["文件名1", "文件名2"]
+    }
+  ]
+}
